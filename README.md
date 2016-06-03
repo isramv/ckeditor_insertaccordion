@@ -1,0 +1,2 @@
+# CKEDITOR insert accordion plugin.
+
