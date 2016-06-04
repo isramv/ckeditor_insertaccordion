@@ -5,6 +5,7 @@ Plugin was designed for Drupal 7 but you can use it as standalone CKEDITOR plugi
 # Using template to generate markup.
 
 
+
 ## Roadmap.
 
 - Create version for Drupal 8
@@ -16,7 +17,7 @@ Plugin was designed for Drupal 7 but you can use it as standalone CKEDITOR plugi
 
 - CKEditor 4.4 (May work on any 4+ version.)
 - jQuery 2+
-- handlebars (already provided)
+- HandlebarsJS (already provided)
 
 ## Why
 
