@@ -16,4 +16,4 @@ just ask how many items meaning (li, div, or whatever they want).
 
 example:
 
-[alt tag](https://raw.githubusercontent.com/isramv/ckeditor_insertaccordion/wiki/images/prompt.png)
+![alt tag](https://raw.githubusercontent.com/isramv/ckeditor_insertaccordion/wiki/images/prompt.png)
