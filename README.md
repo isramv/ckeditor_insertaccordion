@@ -2,7 +2,7 @@
 
 Plugin was designed for Drupal 7 but you can use it as standalone CKEDITOR plugin.
 
-# Using template to generate markup.
+## Using template to generate markup.
 
 You just need to modify this template in order to generate your own markup.
 
@@ -25,6 +25,12 @@ the file is located: `plugins/insertaccordion/template/accordion.html`
     {{/times}}
 </div>
 ```
+
+## Custom CSS
+
+For the editorial part you want to modify the CSS, so the user knows which area is modifying.
+
+you can locate the file here: `plugins/insertaccordion/css/accordion.css`
 
 ## Roadmap.
 
