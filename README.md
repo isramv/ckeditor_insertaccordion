@@ -4,7 +4,27 @@ Plugin was designed for Drupal 7 but you can use it as standalone CKEDITOR plugi
 
 # Using template to generate markup.
 
+You just need to modify this template in order to generate your own markup.
 
+the file is located: `plugins/insertaccordion/template/accordion.html`
+
+```
+<h1>Insert block title here:</h1>
+<a class="bellows__expand_all">expand All</a>
+<br>
+<div class="bellows">
+    {{#times number}}
+    <div class="bellows__item">
+        <div class="bellows__header" role="button" tabindex="0">
+            <h3>Title: {{ this }}</h3>
+            </div>
+        <div class="bellows__content">
+            <p>Content: {{ this }}<p>
+        </div>
+    </div>
+    {{/times}}
+</div>
+```
 
 ## Roadmap.
 
