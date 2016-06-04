@@ -14,6 +14,9 @@ If yes this plugin is for you.
 
 just ask how many items meaning (li, div, or whatever they want).
 
-example:
-
+**example:**
 ![alt tag](https://raw.githubusercontent.com/isramv/ckeditor_insertaccordion/wiki/images/prompt.png)
+
+**result:** If 3 iterations are required.
+![alt tag](https://raw.githubusercontent.com/isramv/ckeditor_insertaccordion/wiki/images/result.png)
+
