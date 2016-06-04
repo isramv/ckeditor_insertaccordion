@@ -12,3 +12,7 @@ you want to provide the HTML markup but you want to keep them from messing it up
 
 If yes this plugin is for you.
 
+just ask how many items meaning (li, div, or whatever they want).
+
+example:
+
