@@ -17,8 +17,8 @@
         CKEDITOR.scriptLoader.load( editorPath + 'js/templates.js');
     }
     // Plugin definition.
-    CKEDITOR.plugins.add( 'insertaccordion', {
-        icons: 'insertaccordion',
+    CKEDITOR.plugins.add( 'template_generator', {
+        icons: 'template_generator',
         init: function( editor ) {
             // Define the pluginDirectory so is accesible from the dialogs.
             var pluginDirectory = this.path;
@@ -32,7 +32,7 @@
                 'howManyAccordions',
                 new CKEDITOR.dialogCommand('howManyAccordionsDialog')
             );
-            editor.ui.addButton('insertaccordion', {
+            editor.ui.addButton('template_generator', {
                 label: 'How Many Accordions',
                 command: 'howManyAccordions',
                 toolbar: 'howmanyaccordions'
@@ -42,7 +42,7 @@
     // We define the dialog in here:
     CKEDITOR.dialog.add('howManyAccordionsDialog', function (editor) {
         return {
-            title: 'Number of items for the accordion.',
+            title: 'Number of items for the template.',
             minWidth: 400,
             minHeight: 200,
             contents: [{
