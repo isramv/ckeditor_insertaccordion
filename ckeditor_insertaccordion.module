@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * Implements hook_wysiwyg_plugin().
+ *
+ */
+function ckeditor_insertaccordion_wysiwyg_plugin($editor, $version) {
+    $plugins = array();
+    switch ($editor) {
+        case 'ckeditor':
+            if ($version > 4) {
+                $plugins['insertaccordion'] = array(
+                    'path' => drupal_get_path('module', 'ckeditor_insertaccordion') . '/plugins/insertaccordion/',
+                    'filename' => 'plugin.js',
+                    'load' => TRUE,
+                    'buttons' => array(
+                        'insertaccordion' => t('insertaccordion'),
+                    ),
+                );
+            }
+            break;
+    }
+    return $plugins;
+}
+

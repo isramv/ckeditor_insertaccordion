@@ -1,0 +1,5 @@
+name = "Ckeditor insertaccordion plugin"
+description = "Adds the ability to insert custom HTML for sfdhr (CKEditor)"
+package = Custom
+dependencies[] = wysiwyg
+core = 7.x

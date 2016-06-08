@@ -1,0 +1,21 @@
+.bellows {
+    background: pink;
+    border: 1px dashed red;
+    padding: 10px;
+}
+.bellows__item {
+    margin-bottom: 10px;
+}
+.bellows__item .bellows__header {
+    padding: 10px;
+    background: #ffe4df;
+    display: block;
+    border: 1px dashed red;
+    border-bottom: 0;
+}
+.bellows__item .bellows__content {
+    padding: 10px;
+    background: #ffd6cf;
+    display: block;
+    border: 1px dashed red;
+}
