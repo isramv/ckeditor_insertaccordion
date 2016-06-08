@@ -1,4 +1,8 @@
-# CKEDITOR insert accordion plugin.
+# CKEDITOR Template Generator Plugin.
+
+## Helps you generate HTML markup for your Users.
+
+### NoJS needed just define a new template and add the CSS you need.
 
 Plugin was designed for Drupal 7 but you can use it as standalone CKEDITOR plugin.
 
