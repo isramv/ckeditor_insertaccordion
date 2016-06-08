@@ -1,0 +1,5 @@
+name = "Ckeditor Template Generator Plugin"
+description = "Adds the ability to insert custom HTML from templates"
+package = Custom
+dependencies[] = wysiwyg
+core = 7.x

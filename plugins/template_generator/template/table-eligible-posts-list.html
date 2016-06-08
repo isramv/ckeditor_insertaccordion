@@ -1,0 +1,22 @@
+<h2>Welcome to the Eligible Post Listing.</h2>
+<div class="table-responsive">
+    <table class="table table-eligible-list">
+        <thead contenteditable="false">
+        <th>POST DATE</th>
+        <th>LIST ID</th>
+        <th>CLASS NUMBER & JOB TITLE</th>
+        </thead>
+        <tbody>
+        {{#times number}}
+        <tr>
+            <td>{{ this }} <i class="sf-icon-pdf"/></td>
+            <td>{{ this }} <i class="sf-icon-pdf"/></td>
+            <td>{{ this }} <i class="sf-icon-pdf"/></td>
+        </tr>
+        {{/times }}
+        </tbody>
+    </table>
+</div>
+<div class="past-eligible-postings">
+    <a href="index.aspx?page=26">Views past eligible list postings. <i class="fa fa-chevron-right"/></a>
+</div>

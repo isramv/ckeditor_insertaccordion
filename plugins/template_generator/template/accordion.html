@@ -1,0 +1,15 @@
+<h4 class="accordion-title">Insert block title here:</h4>
+<a class="bellows__expand_all">expand All</a>
+<br>
+<div class="bellows">
+    {{#times number}}
+    <div class="bellows__item">
+        <div class="bellows__header" role="button" tabindex="0">
+            <h3>Title: {{ this }}</h3>
+            </div>
+        <div class="bellows__content">
+            <p>Content: {{ this }}<p>
+        </div>
+    </div>
+    {{/times}}
+</div>
